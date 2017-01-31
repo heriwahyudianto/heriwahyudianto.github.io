@@ -1,2 +1,2 @@
 # heriwahyudianto
-profile dab blog heri wahyudianto
+profil dan blog heri wahyudianto
