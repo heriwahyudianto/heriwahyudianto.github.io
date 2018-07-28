@@ -108,3 +108,10 @@ function show(section){
 		$('#portofolio').removeClass('display-none');$('#portofolio').show();$('#menu5').addClass('active');
 	}
 }
+
+function sendsms(){
+	console.log($('#name').val()+';'+$('#message').val());
+	$('#asend').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
+	$('#asend').trigger('click');
+	
+}
