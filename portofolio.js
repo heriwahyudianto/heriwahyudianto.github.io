@@ -113,12 +113,13 @@ $('#name').on('input',function(e){
     $('#send').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
 	console.log($("#send").attr("href"));
 });
+/*
 $('#name').change( function(event){
 	$('#send').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
 	console.log($("#send").attr("href"));
 	}
 );
-
+*/
 $('#message').on('input',function(e){
     $('#send').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
 	console.log($("#send").attr("href"));
