@@ -109,6 +109,16 @@ function show(section){
 	}
 }
 
+$('#name').on('input',function(e){
+    $('#send').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
+	console.log($("#send").attr("href"));
+});
+
+$('#message').on('input',function(e){
+    $('#send').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
+	console.log($("#send").attr("href"));
+});
+
 function sendsms(){
 	console.log($('#name').val()+';'+$('#message').val());
 	$('#asend').attr('href', 'sms://+6285791184881?body='+$('#name').val()+';'+$('#message').val());
