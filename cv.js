@@ -30,10 +30,10 @@ var yourLazyLoad = new LazyLoad();
 var viewPortWidth=window.innerWidth;
 var introHeight=window.innerHeight-$('#nav').height();
 $('#intro').css( "height", introHeight +"px" );
-$('#about').css( "height", introHeight +"px" );
+//$('#about').css( "height", introHeight +"px" );
 $('#contact').css( "height", introHeight +"px" );
 $('#certificate').css( "height", introHeight +"px" );
-$('#aboutstory').css( "height", introHeight +"px" );
+//$('#aboutstory').css( "height", introHeight +"px" );
 //$('#portofolio').css( "height", introHeight +"px" );
 
 if(viewPortWidth<=640){
