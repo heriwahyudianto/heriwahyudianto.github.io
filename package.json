@@ -1,0 +1,25 @@
+{
+  "name": "heriwahyudianto.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-minify": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heriwahyudianto/heriwahyudianto.github.io.git"
+  },
+  "author": "heri wahyudianto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heriwahyudianto/heriwahyudianto.github.io/issues"
+  },
+  "homepage": "https://github.com/heriwahyudianto/heriwahyudianto.github.io#readme",
+  "description": "heri wahyudianto profile"
+}

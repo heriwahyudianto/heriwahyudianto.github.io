@@ -1,0 +1,121 @@
+ /*.primaryColor">#1a237e</color>
+  <color name="primaryLightColor">#534bae</color>
+  <color name="primaryDarkColor">#000051</color>
+  <color name="secondaryColor">#ffd600</color>
+  <color name="secondaryLightColor">#ffff52</color>
+  <color name="secondaryDarkColor">#c7a500</color>
+  <color name="primaryTextColor">#ffffff</color>
+  <color name="secondaryTextColor">#000000</color> */
+
+ body {
+     background: #534bae;
+     margin: 0;
+     padding: 0;
+     font-family: Helvetica, sans-serif, Arial;
+ }
+
+ .grid-container {
+     height: 100vh;
+     display: grid;
+     grid-template-rows: 61fr 38fr;
+ }
+
+ .grid-item {}
+
+ .menu-container {
+     display: grid;
+     height: 100%;
+     grid-gap: 15px;
+     grid-template-rows: 1fr 1fr 25px;
+     grid-template-columns: 1fr 1fr 1fr;
+     justify-content: stretch;
+ }
+
+ .gc1-2 {
+     grid-column: 1/2;
+ }
+
+ .gc2-3 {
+     grid-column: 2/3;
+ }
+
+ .gc3-4 {
+     grid-column: 3/4;
+ }
+
+ .gc1-4 {
+     grid-column: 1/4;
+ }
+
+ .text-center {
+     text-align: center;
+ }
+
+ .valign-center {
+     place-self: center;
+ }
+
+ .h1 {
+     font-size: 2rem;
+     margin-top: 0;
+ }
+
+ .h2 {
+     font-size: 1.5rem;
+ }
+
+ .h3 {
+     font-size: 1.17rem;
+ }
+
+ .colorf {
+     color: #fff;
+ }
+
+ .bg-secondary-color {
+     background: #ffd600;
+ }
+
+ .a-button {
+     padding: 10px;
+     border-radius: 2px;
+     color: #000;
+     text-decoration: none;
+     background: #ffd600;
+     font-size: 1rem;
+     text-transform: capitalize;
+     min-height: 48px;
+     line-height: 3;
+ }
+
+ button {
+     background: #ffd600;
+     border-radius: 2px;
+     border: none;
+     font-size: 1rem;
+     text-transform: capitalize;
+ }
+
+ .height-100 {
+     height: 100%;
+ }
+
+ .width-100 {
+     width: 100%;
+ }
+
+ .pl1 {
+     padding-left: 25px;
+ }
+
+ .pr1 {
+     padding-right: 25px;
+ }
+
+ .mt1 {
+     margin-top: 25px;
+ }
+
+ .displayBlock {
+     display: block;
+ }
