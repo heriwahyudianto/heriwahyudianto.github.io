@@ -1,1 +1,128 @@
-body{background:#534bae;margin:0;padding:0;font-family:Helvetica,sans-serif,Arial}.grid-container{height:100vh;display:grid;grid-template-rows:61fr 38fr}.menu-container{display:grid;height:100%;grid-gap:15px;grid-template-rows:1fr 1fr 25px;grid-template-columns:1fr 1fr 1fr;justify-content:stretch}.gc1-2{grid-column:1/2}.gc2-3{grid-column:2/3}.gc3-4{grid-column:3/4}.gc1-4{grid-column:1/4}.text-center{text-align:center}.valign-center{place-self:center}.h1{font-size:2rem;margin-top:0}.h2{font-size:1.5rem}.h3{font-size:1.17rem}.colorf{color:#fff}.bg-secondary-color{background:#ffd600}.a-button{padding:10px;border-radius:2px;color:#fff;text-decoration:none;background:#7986cb;font-size:1.17rem;text-transform:capitalize;min-height:48px;line-height:2.4;font-weight:700}button{background:#ffd600;border-radius:2px;border:none;font-size:1rem;text-transform:capitalize}.height-100{height:100%}.width-100{width:100%}.pl1{padding-left:25px}.pr1{padding-right:25px}.mt1{margin-top:25px}.displayBlock{display:block}
+body {
+  background: #534bae;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Arial
+}
+
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 61fr 38fr
+}
+
+.menu-container {
+  display: grid;
+  height: 100%;
+  grid-gap: 15px;
+  grid-template-rows: 1fr 1fr 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: stretch
+}
+
+.gc1-2 {
+  grid-column: 1/2
+}
+
+.gc2-3 {
+  grid-column: 2/3
+}
+
+.gc3-4 {
+  grid-column: 3/4
+}
+
+.gc1-4 {
+  grid-column: 1/4
+}
+
+.text-center {
+  text-align: center
+}
+
+.valign-center {
+  place-self: center
+}
+
+.h1 {
+  font-size: 2rem;
+  margin-top: 0
+}
+
+.h2 {
+  font-size: 1.5rem
+}
+
+.h3 {
+  font-size: 1.17rem
+}
+
+.colorf {
+  color: #fff
+}
+
+.bg-secondary-color {
+  background: #ffd600
+}
+
+.a-button {
+  padding: 10px;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  background: #7986cb;
+  font-size: 1.17rem;
+  text-transform: capitalize;
+  min-height: 48px;
+  line-height: 2.4;
+  font-weight: 700
+}
+
+button, .button {
+  background: #ffd600;
+  border-radius: 2px;
+  border: none;
+  font-size: 1rem;
+  text-transform: capitalize
+}
+.py1px0{
+  padding: 1px 0;
+}
+.height-100 {
+  height: 100%
+}
+
+.width-100 {
+  width: 100%
+}
+
+.pl1 {
+  padding-left: 25px
+}
+
+.pr1 {
+  padding-right: 25px
+}
+
+.mt1 {
+  margin-top: 25px
+}
+
+.displayBlock {
+  display: block
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    height: unset;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.menu-container {
+  display: flex;
+  height: unset;
+  flex-wrap: wrap;
+}
+  .sm-mb2rm {
+    margin-bottom: 2rem;
+  }
+}
